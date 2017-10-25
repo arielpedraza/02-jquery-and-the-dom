@@ -10,3 +10,19 @@ body {
 main {
   padding: 0 3%;
 }
+
+img {
+  max-width: 25%;
+  max-height: 25%;
+  margin: 1em;
+}
+
+article {
+  clear: both;
+  overflow: auto;
+  width: 100%;
+}
+
+hr {
+  clear: both;
+}
