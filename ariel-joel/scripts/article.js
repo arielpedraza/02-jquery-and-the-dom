@@ -3,7 +3,7 @@
 let articles = [];
 
 // COMMENT: What is the purpose of the following function? Why is its name capitalized? Explain the context of "this" within the function. What does "rawDataObj" represent?
-// PUT YOUR RESPONSE HERE
+// The purpose of the following function is to create a new instance of the following object from the array of objects rawData. "This" referes to the instance. rawDataObj is the local variable we assign to the object we pass in.
 console.log('after articles array');
 function Article (rawDataObj) {
   // DONE: Use the JS object that is passed in to complete this constructor function:
@@ -15,7 +15,6 @@ function Article (rawDataObj) {
   this.authorUrl = rawDataObj.authorUrl;
   this.publishedOn = rawDataObj.publishedOn;
   this.body = rawDataObj.body;
-  // articles.push(this);
 
 }
 
