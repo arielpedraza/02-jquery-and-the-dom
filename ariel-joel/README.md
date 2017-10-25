@@ -66,24 +66,27 @@ _Your README.md must include:_
 ```md
 # Project Name
 
-**Author**: Your Name Goes Here
+**Author**: Ariel Pedraza, Joel Clair
 **Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
-
+The problem domain was to create a dynamic way to render articles onto the html page by passing them through a constructor.
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
-
+Add a template html structure. Store your content into an array of objects then pass them into a constructor function and append them to the html document via cloning template. Then work animation through CSS with hover effects.
 ## Architecture
 <!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+Languages: HTML, CSS, JavaScript.
+Libraries: JQuery.
+Technologies: Live Server, GitHub, GitBash.
 
 ## Change Log
 <!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
-
 01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
-
 ## Credits and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+10-25-2017 11:11am - Finished TODOs & trouble shooting exponential growth.
+10-25-2017 01:59pm - Completed lab & CSS design.
 -->
 ```
